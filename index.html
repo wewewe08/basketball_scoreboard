@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js"></script>
+        <title>Basketball Scoreboard</title>
+    </head>
+
+    <body>
+        <div id="title">
+            <h1>SCOREBOARD</h1>
+        </div>
+        <div class="container">
+            <div>
+                <h1>HOME</h1>
+                <div class="number-container" id="score-el">
+                    <p id="home-score-number">0</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="number-container" id="timer-el">
+                    <p id="score-timer">00:00</p>
+                </div>
+
+                <h3>PERIOD</h3>
+                <div class="number-container" id="period-el">
+                    <p id="period-number">0</p>
+                </div>
+
+                <h3>FOULS</h3>
+                <div class="fouls-wrapper">
+                    <div class="number-container" id="fouls-el">
+                        <p id="fouls-number-1">0</p>
+                    </div>
+
+                    <div class="number-container" id="fouls-el">
+                        <p id="fouls-number-2">0</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h1>GUEST</h1>
+                <div class="number-container" id="score-el">
+                    <p id="guest-score-number">0</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="control-panel">
+            <div>
+                <h3>CONTROL PANEL</h3>
+            </div>
+            <div class="panel">
+                <button id="reset-btn">RESET</button>
+                <button id="period-btn">+1 PERIOD</button>
+
+                <h3>HOME</h3>
+                <div class="home-panel">
+                    <button class="pt-btn" id="1">+1PT</button>
+                    <button class="pt-btn" id="2">+2PT</button>
+                    <button class="pt-btn" id="3">+3PT</button>
+                    <button id="foul-btn">+1 FOUL</button>
+                </div>
+
+                <h3>GUEST</h3>
+                <div class="guest-panel">
+                    <button class="pt-btn" id="1">+1PT</button>
+                    <button class="pt-btn" id="2">+2PT</button>
+                    <button class="pt-btn" id="3">+3PT</button>
+                    <button id="foul-btn">+1 FOUL</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
